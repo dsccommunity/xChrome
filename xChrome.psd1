@@ -27,7 +27,7 @@ CompanyName = 'Microsoft'
 Copyright = '(c) 2014 Microsoft. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Module for installing the chrome'
+Description = 'PowerShell Desired State Configuration (DSC) module for installing Google Chrome.'
 
 # Minimum version of the Windows PowerShell engine required by this module
 # PowerShellVersion = ''
