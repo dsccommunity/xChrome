@@ -40,7 +40,11 @@ This DSC Resource allows you to install the latest version of chrome.
 
 ## Versions
 
-1.0.0.0
+### 1.0.1.0
+
+* Minor changes in module manifest
+
+### 1.0.0.0
 
 *   Initial release with the following resources 
     *   MSFT_xChrome 
