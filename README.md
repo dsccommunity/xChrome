@@ -6,8 +6,7 @@ The **xChrome** module is a part of the Windows PowerShell Desired State Configu
 This module contains the **MSFT_xChrome** resource.
 The **MSFT_xChrome** DSC Resource allows you to install the latest version of Google Chrome.
 
-**All of the resources in the DSC Resource Kit are provided AS IS, and are not supported through any Microsoft standard support program or service.
-The "x" in xChrome stands for experimental, which means that these resources will be fix-forward and monitored by the module owner(s).
+**All of the resources in this module are provided AS IS, and are not supported through any Microsoft standard support program or service. The "x" prefix in the module name stands for "experimental," which means that these resources will be fix-forward and monitored by the module owner(s).**
 
 ## Installation
 
