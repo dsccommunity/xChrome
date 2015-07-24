@@ -39,6 +39,10 @@ The **MSFT_xChrome** DSC Resource has following optional properties:
 
 ## Versions
 
+### 1.0.2.0
+
+* Minor documentation updates
+
 ### 1.0.1.0
 
 * Minor changes in module manifest
