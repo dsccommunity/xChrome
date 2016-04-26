@@ -41,6 +41,8 @@ The **MSFT_xChrome** DSC Resource has following optional properties:
 
 ### Unreleased
 
+* Added missing dependency on xPSDesiredStateConfiguration
+
 ### 1.0.2.0
 
 * Minor documentation updates
