@@ -101,7 +101,9 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        # ReleaseNotes = ''
+        ReleaseNotes = '* Added missing dependency on xPSDesiredStateConfiguration
+
+'
 
     } # End of PSData hashtable
 
