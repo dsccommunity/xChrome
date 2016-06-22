@@ -8,6 +8,9 @@ The **MSFT_xChrome** DSC Resource allows you to install the latest version of Go
 
 **All of the resources in this module are provided AS IS, and are not supported through any Microsoft standard support program or service. The "x" prefix in the module name stands for "experimental," which means that these resources will be fix-forward and monitored by the module owner(s).**
 
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
 ## Installation
 
 To install **xChrome** PowerShell DSC module:
