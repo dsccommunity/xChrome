@@ -30,7 +30,7 @@ Copyright = '(c) 2014 Microsoft. All rights reserved.'
 Description = 'PowerShell Desired State Configuration (DSC) module for installing Google Chrome.'
 
 # Minimum version of the Windows PowerShell engine required by this module
-# PowerShellVersion = ''
+PowerShellVersion = '4.0'
 
 # Name of the Windows PowerShell host required by this module
 # PowerShellHostName = ''

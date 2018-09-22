@@ -18,9 +18,9 @@ To install **xChrome** PowerShell DSC module:
 *   Unzip the content under the `$env:ProgramFiles\WindowsPowerShell\Modules` folder
 *   **OR** Run `Install-Module -Name xChrome` from an administrative PowerShell prompt
 
-To confirm installation:  
+To confirm installation:
 
-*   Run `Get-DSCResource -Module xChrome` to see that `MSFT_xChrome` is among the DSC Resources listed  
+*   Run `Get-DSCResource -Module xChrome` to see that `MSFT_xChrome` is among the DSC Resources listed
 *   Run the `Get-Module -ListAvailable -Name xChrome` command to verify that the `xChrome` DSC module is listed
 
 ## Requirements
@@ -43,7 +43,10 @@ The **MSFT_xChrome** DSC Resource has following optional properties:
 ## Versions
 
 ### Unreleased
-* Converted appveyor.yml to install Pester from PSGallery instead of from Chocolatey.
+
+* Update appveyor.yml to use the default template.
+* Added default template files .codecov.yml, .gitattributes, and .gitignore and .vscode folder.
+* The module manifest now contain the correct PowerShell version (issue #17).
 
 ### 1.1.0.0
 
@@ -59,8 +62,8 @@ The **MSFT_xChrome** DSC Resource has following optional properties:
 
 ### 1.0.0.0
 
-*   Initial release with the following resources 
-    *   MSFT_xChrome 
+*   Initial release with the following resources
+    *   MSFT_xChrome
 
 ## Examples
 
@@ -77,14 +80,14 @@ Configuration Sample_InstallChromeBrowser
     (
     [Parameter(Mandatory)]
     $Language,
-        
+
     [Parameter(Mandatory)]
     $LocalPath
-        
+
     )
-    
+
     Import-DscResource -module xChrome
-    
+
     MSFT_xChrome chrome
     {
     Language = $Language
